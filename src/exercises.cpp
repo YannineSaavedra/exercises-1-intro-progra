@@ -65,7 +65,19 @@ void exercise_4(double n, double a, double b, double x, double y) {
 }
 
 void exercise_5(char character) {
-  // TODO: YOUR CODE HERE
+  cin >> character;
+  if (character>= 65 and character <= 90)
+  {
+    cout << "lower-case alphabet";
+  }
+  else if (character >= 97 and character <= 122)
+  {
+    cout << "upper-case alphabet";
+  }
+  else
+  {
+    cout << "not an alphabet";
+  }
 }
 
 void exercise_6(int number) {
