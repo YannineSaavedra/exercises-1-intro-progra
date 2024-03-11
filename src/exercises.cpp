@@ -7,15 +7,30 @@ using namespace std;
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
   
-  
+
 }
 
 void exercise_2(double A, double B, double C) {
-  // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_3(int a, int b) {
-  // TODO: YOUR CODE HERE
+  cin>>a>>b;
+  if(a>=0&&a<=1000000&&b>=0&&b<=1000000)
+  {
+    if(b==0)
+    {
+      cout<< "imposible";
+    }
+    else
+    {
+      cout<<a/b;
+    }
+  }
+  else
+  {
+    cout << "Ingrese valores entre 0 y 1000000";
+  }
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
