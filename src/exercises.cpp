@@ -175,7 +175,23 @@ void exercise_12(string color1, int numb1,
 }
 
 string exercise_13(int age, int years_of_experience) {
-  // TODO: YOUR CODE HERE
+  cin << age << years_of_experience;
+  if (age >= 18)
+  {
+    if (years_of_experience >= 0 and years_of_experience <= 3)
+    {
+      cout << "coordinador de proyecto";
+    }
+    if (years_of_experience >= 3 and years_of_experience <= 5)
+    {
+      cout << "director de proyecto";
+
+    }
+    if (years_of_experience >= 5)
+    {
+      cout << "director senior";
+    }
+  }
   return "";
 }
 
