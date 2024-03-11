@@ -129,9 +129,25 @@ void exercise_8(long int seconds) {
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  // TODO: YOUR CODE HERE
-  return "";
+  string word1,word2, word3, word4, word5;
+   cout << "Introduce 5 words:"<<endl;
+   cin >> word1 >> word2 >> word3 >> word4 >> word5;
+   char w1 = word1[0];
+   char w2 = word2 [0];
+   char w3 = word3 [0];
+   char w4 = word4 [0];
+   char w5 = word5 [0];
+   cout << w1 << w2 << w3 << w4 << w5 << endl;
+   
+    if (word1[0] == word5[0]) {
+        cout << "Hemos encontrado algo!" << std::endl;
+    } else {
+     cout << "Aun sin suerte" << std::endl;
+
+    return 0;
+    }
 }
+  
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
