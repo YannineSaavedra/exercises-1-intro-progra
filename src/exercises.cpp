@@ -113,7 +113,15 @@ void exercise_6(int number) {
 }
 
 void exercise_7(double r) {
-  // TODO: YOUR CODE HERE
+  cin >> r;
+  if (r>=0)
+  {
+    cout << 4*3.1416*pow(r,2);
+  }
+  else
+  {
+    cout << "Radius cannot be negative.";
+  }
 }
 
 void exercise_8(long int seconds) {
