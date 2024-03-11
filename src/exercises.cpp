@@ -76,7 +76,7 @@ void exercise_5(char character) {
   }
   else
   {
-    cout << "not an alphabet";
+    cout << "not an"
   }
 }
 
