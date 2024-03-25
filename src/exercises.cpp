@@ -77,11 +77,11 @@ void exercise_5(char character) {
    cin >> character;
   if (character>= 65 && character <= 90)
   {
-    cout << "lower-case alphabet\n";
+    cout << ""upper-case alphabet\n";
   }
   else if (character >= 97 && character <= 122)
   {
-    cout << "upper-case alphabet\n";
+    cout << "lower-case alphabet\n";
   }
   else
   {
