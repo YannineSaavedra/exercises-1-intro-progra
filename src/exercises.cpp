@@ -5,7 +5,6 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-  string s1, s2, s3;
   s1 = "firewood";
   s2 = "frog";
   s3 = "fire";
@@ -76,7 +75,7 @@ void exercise_5(char character) {
   }
   else
   {
-    cout << "not an alphabet"
+    cout << "not an alphabet";
   }
 }
 
@@ -154,7 +153,6 @@ int exercise_10(int a, int b) {
 }
 
 string exercise_11(int number) {
-  cin << number;
   if (number == 11235813)
   {
     cout << "Se encontro Fibonacci";
@@ -175,7 +173,6 @@ void exercise_12(string color1, int numb1,
 }
 
 string exercise_13(int age, int years_of_experience) {
-  cin << age << years_of_experience;
   if (age >= 18)
   {
     if (years_of_experience >= 0 and years_of_experience <= 3)
@@ -217,13 +214,13 @@ string exercise_14(int number_of_docs) {
 void exercise_15(int a, int b, int c) {
   int aux;
   cin << a << b << c << aux;
-  cout << "Los valores son: a = "<<a<<" b = " <<b <<" c = " <<c <<"
+  cout << "Los valores son: a = "<<a<<" b = " <<b <<" c = " <<c;
   aux = a;
   a = b;
   b = c;
   c = aux;
   cout << "Permutamos: a => b, b => c, c => a";
-  cout << "los valores despues de la permutacion son a=a, b=b, c=c;
+  cout << "los valores despues de la permutacion son a=a, b=b, c=c";
 }
 
 void exercise_16(int debut, int fin) {
