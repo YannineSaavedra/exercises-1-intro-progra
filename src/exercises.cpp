@@ -208,7 +208,7 @@ void exercise_16(int debut, int fin) {
     }
     else
     {
-       cout<<"Las horas deben estar entre 0 y 24!"
+       cout<<"Las horas deben estar entre 0 y 24!";
     }
   }
   else
