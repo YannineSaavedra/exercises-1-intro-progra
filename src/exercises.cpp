@@ -92,28 +92,28 @@ cin >> number;
   switch (number)
   {
     case 1:
-    cout << "Lunes";
+    cout << "Monday\n";
     break;
     case 2:
-    cout << "Martes";
+    cout << "Tuesday\n";
     break;
     case 3:
-    cout << "Miercoles";
+    cout << "Wednesday\n";
     break;
     case 4:
-    cout << "Jueves";
+    cout << "Thursday\n";
     break;
     case 5:
-    cout << "Viernes";
+    cout << "Friday\n";
     break;
     case 6:
-    cout << "Sabado";
+    cout << "Saturday\n";
     break;
     case 7:
-    cout << "Domingo";
+    cout << "Sunday\n";
     break;
     default:
-    cout << "invalid input";
+    cout << "invalid input\n";
     break;
     
   }
