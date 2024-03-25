@@ -90,8 +90,6 @@ void exercise_5(char character) {
 }
 
 
-}
-
 
 
 void exercise_6(int number) {
