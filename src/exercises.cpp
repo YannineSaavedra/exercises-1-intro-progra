@@ -58,25 +58,16 @@ void exercise_3(int a, int b) {
 
 
 void exercise_4(double n, double a, double b, double x, double y) {
-double descuento;
-  cin >> n >> a >> b >> x >> y;
-  if (n > a or n > b)
-  {
-    if (n>a)
-    {
-      descuento = x;
-    }
-    if (n>b)
-    {
-      descuento = y;
-    }
+cin >> n >> a >> b >> x >> y;
+  if(a < b) {
+    if (n > b) {
+      cout << n - ((y * n) / 100) << endl;
+    } else if(n > a) {
+      cout << n - ((x * n) / 100) << endl;
+    } else {
+      cout << n << endl;
+    }  
   }
-  else
-  {
-    descuento = 0;
-  }
-  cout << n - (n*descuento/100);
-}
 }
   
   
