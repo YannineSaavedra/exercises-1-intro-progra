@@ -5,9 +5,6 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-  s1 = "firewood";
-  s2 = "frog";
-  s3 = "fire";
   if (s1 < s2 && s1 < s3) {
     cout << s1;
   } else if (s2 < s1 && s2 < s3) {
@@ -15,3 +12,7 @@ void exercise_1(string s1, string s2, string s3) {
   } else {
     cout << s3;
   }
+
+
+}
+
