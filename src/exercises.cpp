@@ -113,7 +113,7 @@ cin >> number;
     cout << "Sunday\n";
     break;
     default:
-    cout << "invalid input\n";
+    cout << "Invalid input\n";
     break;
     
   }
