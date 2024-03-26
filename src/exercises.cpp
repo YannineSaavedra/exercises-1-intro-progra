@@ -241,26 +241,45 @@ void exercise_15(int a, int b, int c) {
 
 
 void exercise_16(int debut, int fin) {
-  if (debut > 24 || debut < 0 || fin > 24 || fin < 0) {
-    cout << "Las horas deben estar entre 0 y 24!" << endl;
-  } else if (debut == fin) {
-    cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
-  } else if (debut > fin) {
-    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+  int tiempo_alquiler,precio_hr,costo_total;
+  cin>>debut>>fin;
+  tiempo_alquiler = fin - debut;
+  if (debut < fin)
+  {
+    if((debut>=0 and debut<=24)and (fin>=0 and fin<=24))
+    {
+      if (debut !=fin)
+      {
+        if ((debut>= 7 and debut <= 17) and (fin>= 7 and fin <=17))
+        {
+          precio_hr=2;
+        }
+        else
+        {
+          precio_hr=1;
+        }
+        costo_total = tiempo_alquiler*precio_hr;
+        cout<< "Su costo total sera de "<<costo_total<<"(Bs)";
+      }
+      else 
+      {
+        cout<<"Que extraño, no has alquilado tu bicicleta por mucho tiempo!";
+      }
+  
+
+    }
+    else
+    {
+       cout<<"Las horas deben estar entre 0 y 24!";
+    }
+  }
+  else
+  {
+    cout<<"No se puede alquilar una bicicleta por más de 24 horas y cada período de alquiler debe estar dentro del mismo día.";
   }
 
-  else if (0 <= debut && debut <= 7 && 0 <= fin && fin <= 7 || 17 <= debut && debut <= 24 && 17 <= fin && fin <= 24) {
-    int horas = fin - debut;
-    cout << "Haz alquilado una bicicleta por" << endl;
-    cout << horas << " hora(s) con el tarifario de 1 boliviano(s)" << endl;
-    cout << "El monto total a pagar es de " << horas << " boliviano(s)." << endl;
-  } else if (7 <= debut && debut <= 17 && 7 <= fin && fin <= 17) {
-    int horas = fin - debut;
-    int price = horas * 2;
-    cout << "Haz alquilado una bicicleta por" << endl;
-    cout << horas << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
-    cout << "El monto total a pagar es de " << price << " boliviano(s)." << endl;
-  } 
+
+}
  
 
 }
