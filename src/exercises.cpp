@@ -241,46 +241,4 @@ void exercise_15(int a, int b, int c) {
 
 
 void exercise_16(int debut, int fin) {
-  int tiempo_alquiler,precio_hr,costo_total;
-  cin>>debut>>fin;
-  tiempo_alquiler = fin - debut;
-  if (debut < fin)
-  {
-    if((debut>=0 and debut<=24)and (fin>=0 and fin<=24))
-    {
-      if (debut !=fin)
-      {
-        if ((debut>= 7 and debut <= 17) and (fin>= 7 and fin <=17))
-        {
-          precio_hr=2;
-        }
-        else
-        {
-          precio_hr=1;
-        }
-        costo_total = tiempo_alquiler*precio_hr;
-        cout<< "Su costo total sera de "<<costo_total<<"(Bs)";
-      }
-      else 
-      {
-        cout<<"Que extraño, no has alquilado tu bicicleta por mucho tiempo!";
-      }
-  
-
-    }
-    else
-    {
-       cout<<"Las horas deben estar entre 0 y 24!";
-    }
-  }
-  else
-  {
-    cout<<"No se puede alquilar una bicicleta por más de 24 horas y cada período de alquiler debe estar dentro del mismo día.";
-  }
-
-
-}
- 
-
-}
- 
+} 
