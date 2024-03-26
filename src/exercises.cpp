@@ -173,7 +173,16 @@ cout << s1[0] << s2[0] << s3[0] << s4[0] << s5[0] << endl;
   
 
 int exercise_10(int a, int b) {
-
+int result;
+  if (a < 0 || b < 0) {
+    result = 0;
+  } else {
+    int sum = a + b;
+    string s = to_string(sum);
+    int digits = s.size();
+    result = sum * digits;
+  }
+  return result;
 }
   
 
