@@ -269,7 +269,7 @@ void exercise_16(int debut, int fin) {
         return;
     }
 
-    if (debut > fin) 
+    if (debut > fin);
     {
         cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
         return;
